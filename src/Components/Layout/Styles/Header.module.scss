@@ -1,0 +1,64 @@
+@import "../../../Sass/App.module.scss";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba($navyblue, $alpha: 0.85);
+  box-shadow: 0px 0px 8px 2px #000000;
+  z-index: 1;
+  backdrop-filter: blur(10px);
+}
+
+.logo {
+  margin-left: 20px;
+  color: $slate;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.logo:hover {
+  color: $green;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+}
+
+.navLinks {
+  display: flex;
+}
+
+.navLinks a {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: $slate;
+}
+
+.navLinks a:hover {
+  color: $green;
+}
+
+.resumeBtn {
+  background-color: $navyblue;
+  color: $green;
+  border: 1px solid $green;
+  border-radius: 2px;
+  transition-duration: 0.4s;
+  padding: 10px;
+}
+
+.resumeBtn:hover {
+  background-color: $lightgreen;
+  cursor: pointer;
+}

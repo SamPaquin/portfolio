@@ -1,0 +1,47 @@
+// Colors
+$navyblue: #0a192f;
+$lightnavy: rgba(22, 51, 95, 0.5);
+$lightslate: #ccd6f6;
+$slate: #8892b0;
+$green: #61f9d5;
+$lightgreen: rgba(97, 249, 213, 0.25);
+
+// Fonts
+
+// Global Styles
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html {scroll-behavior: smooth;}
+
+// App Styles
+
+.app {
+  background-color: $navyblue;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subtitle {
+  font-size: 40px;
+  color: $lightslate;
+}
+
+button {
+  background-color: $navyblue;
+  color: $green;
+  border: 1px solid $green;
+  border-radius: 2px;
+  transition-duration: 0.4s;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: $lightgreen;
+  cursor: pointer;
+}

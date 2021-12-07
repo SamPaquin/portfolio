@@ -1,0 +1,26 @@
+@import "../../Sass/App.module.scss";
+
+.sectionText {
+  font-size: 20px;
+  color: $slate;
+  margin-top: 10px;
+}
+
+.sectionText ul {
+  list-style-type: none;
+  padding-left: 25px;
+  margin-top: 10px;
+}
+
+.sectionText ul li::before {
+  content: "\25B8";
+  color: $green;
+  display: inline-block;
+  width: 20px;
+  margin-left: -1em;
+}
+
+.technologies {
+  color: $slate;
+  font-size: 16px;
+}

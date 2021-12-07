@@ -1,0 +1,49 @@
+@import "../../Sass/App.module.scss";
+
+.section {
+  display: flex;
+  align-items: center;
+  padding-top: 35vh;
+}
+
+.aboutText {
+  max-width: 500px;
+  margin-right: 25px;
+}
+
+.sectionText {
+  font-size: 20px;
+  color: $slate;
+  margin-top: 10px;
+}
+
+.personalImage img {
+  border-radius: 4px;
+  max-width: 300px;
+  height: 300px;
+  box-shadow: 1rem 1rem 0 0 $navyblue, 1rem 1rem 0 3px $green;
+}
+
+.sectionText a {
+  color: $green;
+  position: relative;
+}
+
+.sectionText a:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: $green;
+  opacity: 50%;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.sectionText a:hover:before {
+  visibility: visible;
+  opacity: 50%;
+  width: 100%;
+}

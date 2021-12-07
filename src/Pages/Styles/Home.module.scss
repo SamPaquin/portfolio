@@ -1,0 +1,55 @@
+@import "../../Sass/App.module.scss";
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 35vh;
+}
+
+.intro {
+  color: $green;
+  font-size: 20px;
+}
+
+.name {
+  color: $lightslate;
+  font-size: 70px;
+  margin-top: 10px;
+}
+
+.title {
+  color: $slate;
+  font-size: 60px;
+}
+
+.introText {
+  color: $slate;
+  font-size: 20px;
+  margin-top: 20px;
+  max-width: 500px;
+}
+
+.introText a {
+  color: $green;
+  position: relative;
+}
+
+.introText a:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: $green;
+  opacity: 50%;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.introText a:hover:before {
+  visibility: visible;
+  opacity: 50%;
+  width: 100%;
+}

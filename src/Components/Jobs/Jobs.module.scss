@@ -1,0 +1,58 @@
+@import "../../Sass/App.module.scss";
+
+.companyInfo {
+  color: $lightslate;
+}
+
+.companyInfo a {
+  color: $green;
+  position: relative;
+}
+
+.companyInfo a:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: $green;
+  opacity: 50%;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.companyInfo a:hover:before {
+  visibility: visible;
+  opacity: 50%;
+  width: 100%;
+}
+
+.timeframe {
+  color: $slate;
+}
+
+.job {
+  max-width: 500px;
+}
+
+.job ul {
+  list-style-type: none;
+  padding-left: 25px;
+}
+
+.job ul li::before {
+  content: "\25B8";
+  color: $green;
+  display: inline-block;
+  width: 20px;
+  margin-left: -1em;
+}
+
+.job li {
+  color: $slate;
+}
+
+.achievements {
+  margin: 10px 0;
+}

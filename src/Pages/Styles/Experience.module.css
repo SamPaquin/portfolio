@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.app {
+  background-color: #0a192f;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.subtitle {
+  font-size: 40px;
+  color: #ccd6f6;
+}
+
+button {
+  background-color: #0a192f;
+  color: #61f9d5;
+  border: 1px solid #61f9d5;
+  border-radius: 2px;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: rgba(97, 249, 213, 0.25);
+  cursor: pointer;
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 35vh;
+}
+
+.sectionText {
+  font-size: 20px;
+  color: #8892b0;
+  margin-top: 10px;
+  max-width: 800px;
+}
+
+.jobs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px 0;
+}
+
+.jobLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.jobLinks a {
+  color: #8892b0;
+  padding: 10px 20px;
+}
+
+.jobLinks a:focus,
+.jobLinks a:hover {
+  color: #61f9d5;
+  background-color: rgba(22, 51, 95, 0.5);
+}
+
+.jobInfo {
+  margin-left: 20px;
+}
+/*# sourceMappingURL=Experience.module.css.map */

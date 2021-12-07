@@ -1,0 +1,54 @@
+@import "../../Sass/App.module.scss";
+
+.sectionText {
+  font-size: 20px;
+  color: $slate;
+  margin-top: 10px;
+  max-width: 800px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  padding-top: 35vh;
+  max-width: 800px;
+}
+
+.educationInfo {
+  font-size: 20px;
+  color: $lightslate;
+}
+
+.degree {
+  margin: 25px 0;
+}
+
+.sectionText {
+  font-size: 20px;
+  color: $slate;
+  margin-top: 10px;
+}
+
+.educationInfo a {
+  color: $green;
+  position: relative;
+}
+
+.educationInfo a:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: $green;
+  opacity: 50%;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.educationInfo a:hover:before {
+  visibility: visible;
+  opacity: 50%;
+  width: 100%;
+}
