@@ -14,7 +14,7 @@ const Education = () => {
               St. Cloud State University
             </ExternalLink>
           </h3>
-          <p className={classes.sectionText}>GPA: 3.79</p>
+          <p className={classes.sectionText}>GPA: 3.89</p>
           <p className={classes.sectionText}>
             Software Design, Software Architecture, Foundations of Software
             Engineering, Application and Database Systems, Quality Assurance

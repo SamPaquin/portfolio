@@ -9,9 +9,9 @@ const About = () => {
       <div className={classes.aboutText}>
         <h2 className={classes.subtitle}>About Me</h2>
         <p className={classes.sectionText}>
-          Hey there! My name is Sam Paquin and I enjoy creating digital
+          Hey! My name is Sam Paquin and I enjoy creating digital
           environments for people to interact with. I started programming back
-          in 2016 after using Wix for my business. I felt that there were too
+          in 2016 after using Wix for my wedding venue business. I felt that there were too
           many constraints and wanted to create on my own!
         </p>
         <p className={classes.sectionText}>

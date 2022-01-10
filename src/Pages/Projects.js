@@ -1,7 +1,8 @@
-import StarWars from "../Images/StarWarsProject.jpg";
+import Pokemon from "../Images/Pokemon.jpg";
+import PokedexImage from "../Images/PokedexImage.PNG";
 import LooneyTunes from "../Images/LooneyTunesProject.jpg";
 import RustyHelicopter from "../Images/RustyHelicopter.png";
-import ThePaquinCollection from "../Images/ThePaquinCollection.png";
+import ThePaquinCollection from "../Images/ThePaquinCollection.jpg";
 import classes from "./Styles/Projects.module.css";
 
 const Projects = () => {
@@ -11,31 +12,36 @@ const Projects = () => {
       <div className={classes.projectSection}>
         <div className={classes.project}>
           <div className={classes.projectImage}>
-            <img src={StarWars} alt="Star Wars API (SWAPI)" />
+            <img src={Pokemon} alt="Pokemon Pokedex (PokeAPI)" />
             <span className={classes.imgBorder}></span>
           </div>
           <div className={classes.projectText}>
-            <h3>Star Wars API (SWAPI)</h3>
+            <h3>Pokemon API (PokeAPI)</h3>
             <div className={classes.siteLinks}>
-              <a href="https://www.google.com" target="_blank" rel="noreferrer">
+              <a
+                href="https://github.com/SamPaquin/national-pokedex"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <p>Source Code</p>
               </a>
             </div>
-            <p>Built with: React, CSS/SASS, HMTL, Star Wars API</p>
+            <p>Built with: React, CSS/SASS, HTML, Pokemon API</p>
             <div className={classes.projectDescription}>
               <p>
-                This personal project was built using Star Wars API while I was
-                learning how to use APIs. I also have a deep love for all things
-                Star Wars so this project was a no-brainer and a lot of fun!
+                This personal project was built using Pokemon API while I was
+                learning how to use APIs. My kiddos and I love all things
+                Pokemon so this project was a no-brainer and a lot of fun!
               </p>
               <p>
-                Check it out{" "}
-                <a
-                  href="https://www.google.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                I didn't set this up in a live envionment, but check out a pic
+                of it{" "}
+                <a href={PokedexImage} target="_blank" rel="noreferrer">
                   here
+                </a>{" "}
+                or a check out a quick{" "}
+                <a href="https://youtu.be/DCEe_gJH5W4" target="_blank" rel="noreferrer">
+                  video
                 </a>
                 !
               </p>
@@ -58,19 +64,14 @@ const Projects = () => {
                 <p>Source Code</p>
               </a>
             </div>
-            <p>Built with: React, CSS/SASS, HMTL</p>
+            <p>Built with: React, CSS/SASS, HTML</p>
             <div className={classes.projectDescription}>
               <p>
                 This is a fun school project that was built using the Agile
-                process, which had to be documented.
-              </p>
-              <p>
-                Play this game{" "}
-                <a
-                  href="https://www.google.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                process, which had to be documented. I didn't post this live as
+                it was just a school project, but check out a video of it
+                running{" "}
+                <a href="https://youtu.be/VdwwVTIs-34" target="_blank" rel="noreferrer">
                   here
                 </a>
                 !
@@ -100,18 +101,11 @@ const Projects = () => {
                 This school project had me working with a new language, Rust. It
                 felt fairly similar to C++ but there were definite nuances, and
                 it was very interesting and a lot of fun to work with the new
-                language.
-              </p>
-              <p>
-                Check out a video of the running code{" "}
-                <a
-                  href="https://www.google.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  here
-                </a>
-                !
+                language. Here is a{" "}
+                <a href="https://youtu.be/DkZj8U46TL4" target="_blank" rel="noreferrer">
+                  video
+                </a>{" "}
+                of me explaining it and running the project!
               </p>
             </div>
           </div>
@@ -124,26 +118,28 @@ const Projects = () => {
           <div className={classes.projectText}>
             <h3>The Paquin Collection</h3>
             <div className={classes.siteLinks}>
-              <a href="https://www.google.com" target="_blank" rel="noreferrer">
+              <a
+                href="https://github.com/SamPaquin/thepaquincollection"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <p>Source Code</p>
               </a>
             </div>
-            <p>Built with: React, CSS/SASS, AWS</p>
+            <p>Built with: React, CSS/SASS, HTML, AWS</p>
             <div className={classes.projectDescription}>
               <p>
-                This school project had me working with a new language, Rust. It
-                felt fairly similar to C++ but there were definite nuances and
-                it was very interesting and a lot of fun to work with the new
-                language.
+                This project was commissioned by my wife! She is a wedding
+                photographer/videographer and was looking for a new website.
               </p>
               <p>
-                Check out the live site{" "}
+                Check out the{" "}
                 <a
-                  href="https://www.google.com"
+                  href="https://www.thepaquincollection.com"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  here
+                  live site
                 </a>
                 !
               </p>

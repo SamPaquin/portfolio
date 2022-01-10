@@ -14,10 +14,10 @@ const Experience = () => {
       <p className={classes.sectionText}>
         Much of my professional experience is in the financial services industry
         in lending and marketing while the majority of my software engineering
-        experience is either through school or personal use. However, you may
+        experience is either through school or personal projects. However, you may
         notice that sprinkled throughout my financial career are several
-        marketing and software skills that I believe transfer wonderfully to
-        software engineering.
+        software skills that I believe transfer wonderfully to
+        software engineering (along with all my soft skills)!
       </p>
       <div className={classes.jobs}>
         <div className={classes.jobLinks}>

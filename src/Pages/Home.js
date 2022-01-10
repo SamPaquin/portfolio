@@ -1,4 +1,3 @@
-import { ExternalLink } from "react-external-link";
 import classes from "./Styles/Home.module.css";
 
 const Home = () => {
@@ -8,9 +7,9 @@ const Home = () => {
       <h1 className={classes.name}>Sam Paquin.</h1>
       <h1 className={classes.title}>Builder of digital experiences.</h1>
       <p className={classes.introText}>
-        I'm a software engineer that specializes in building (as well as
+        I'm a software engineering student that specializes in building (as well as
         designing) exceptional digital experiences. Currently, I'm in the
-        process of changing career fields from several years of the financial
+        process of evovling my career from several years in the financial
         industry to software engineering. Check out my work in the{" "}
         <a href="#projects">Projects Section</a>.
       </p>

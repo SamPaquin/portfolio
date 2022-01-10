@@ -19,7 +19,7 @@ const CMCU = () => {
         </li>
         <li className={classes.achievements}>
           Worked with the marketing department to develop a plan for
-          intergration into the current market, working with local schools and
+          integration into the current market, working with local schools and
           special interest groups.
         </li>
         <li className={classes.achievements}>
